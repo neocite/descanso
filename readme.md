@@ -46,7 +46,7 @@ Contém todos os componentes REACT que podem ser reutilizados em toda a aplicaç
 Contém todos os gerenciadores de contexto. É uma maneira de fazer comunicação entre os componentes da aplicação
 
 ###### Pasta pages
-#####_app.tsx_
+##### _app.tsx_
 Contém o conteúdo principal do aplicativo. Tudo que estiver contido neste arquivo poderá ser utilizado por toda aplicação
 
 ##### _document.tsx_
