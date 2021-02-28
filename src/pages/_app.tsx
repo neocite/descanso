@@ -2,10 +2,10 @@ import '../styles/global.css';
 
 import { ChallengesProvider } from '../context/ChallengeContext'
 
-function MyApp({ Component, pageProps }) {
+function DescansoApp({ Component, pageProps }) {
     return (
         <Component {...pageProps} />
     )
 }
 
-export default MyApp
+export default DescansoApp
