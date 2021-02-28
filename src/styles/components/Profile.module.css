@@ -3,6 +3,12 @@
   align-items: center;
 }
 
+@media only screen and (hover: none) and (pointer: coarse) {
+  .container {
+    padding-top: 3rem;
+  }
+}
+
 .container > img {
   width: 5.5rem;
   height: 5.5rem;
