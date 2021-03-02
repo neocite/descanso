@@ -10,7 +10,18 @@
 .container section {
   flex: 1;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 6rem;
   align-content: center;
+}
+
+@media not screen and (hover: none) and (pointer: coarse) {
+  .container section {
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+  }
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
+  .container section {
+    gap: 2rem;
+  }
 }
