@@ -36,7 +36,7 @@ export default function Home(props: UserProps) {
                 <CountdownProvider>
                     <section>
                         <div>
-                            <Profile name={props.name} picture={props.picture} />
+                            <Profile />
                             <CompletedChallenge />
                             <Countdown />
                         </div>
@@ -66,15 +66,15 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
         challengesCompleted = '0';
     }
 
-    const user = {
-        name: 'Visitante da Silva',
-        picture: 'https://cdn2.vectorstock.com/i/1000x1000/59/11/cartoon-animal-head-icon-dog-face-avatar-vector-7375911.jpg',
+    const challengeData = {
         level: Number(level),
         currentExperience: Number(currentExperience),
         challengesCompleted: Number(challengesCompleted)
     }
 
     return {
-        props: user
+        props: challengeData
     }
+
+
 }
