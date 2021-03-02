@@ -59,6 +59,9 @@ Rota principal da aplicação. Aqui você monta os componentes da sua página.
 getServerSideProps - método que roda do lado do servidor do next
 ```
 
+###### Pasta pages/api
+Contém um exemplo de uma função serveless que roda dentro da vercel
+
 ###### Pasta styles
 Contém os arquivos de CSS da aplicação
 
